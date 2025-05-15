@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: magalums
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/magaludb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
